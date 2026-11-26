@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-26T10:19:01.801Z",
+  "channels": {
+    "stable": {
+      "version": "1.4.4",
+      "releaseDate": "2026-11-26T10:19:01.800Z",
+      "releaseUrl": "https://github.com/finally2026/GitPilot-releases/releases/tag/v1.4.4",
+      "minSupportedVersion": null,
+      "rolloutPercent": 100,
+      "notes": [
+        "新增远程版本控制与软件内检查更新（支持 Stable/Beta 通道、灰度放量、强制安全升级与自定义镜像源）",
+        "新增应用内安装包下载进度、本地 SHA-256 强校验与升级前 state.json 自动备份",
+        "跨平台安装适配：Windows 支持向导/静默升级，macOS/Linux 兼容未签名安装包",
+        "切换默认更新源至公开分发仓 finally2026/GitPilot-releases（零源码）并接入国内 CDN 镜像源"
+      ],
+      "assets": {
+        "darwin-arm64": {
+          "filename": "GitPilot-1.4.4-mac-arm64.zip",
+          "sha256": "7d58c4065b727cc5e52688ee207e7992b602e718b4102bc82a998be17cc76b01",
+          "size": 108019477,
+          "urls": [
+            "https://github.com/finally2026/GitPilot-releases/releases/download/v1.4.4/GitPilot-1.4.4-mac-arm64.zip"
+          ]
+        },
+        "darwin-x64": {
+          "filename": "GitPilot-1.4.4-mac-x64.zip",
+          "sha256": "21d7a4f89e2814a0e731ec877f44312c96c94f90db528524b1175b1f4800e7b5",
+          "size": 113493153,
+          "urls": [
+            "https://github.com/finally2026/GitPilot-releases/releases/download/v1.4.4/GitPilot-1.4.4-mac-x64.zip"
+          ]
+        },
+        "linux-x64": {
+          "filename": "GitPilot-1.4.4-linux-x86_64.AppImage",
+          "sha256": "ef0a545d73e125c192dfeaf1b1417b9f19b2a112e337e70d1cd73d916c8ca284",
+          "size": 115529802,
+          "urls": [
+            "https://github.com/finally2026/GitPilot-releases/releases/download/v1.4.4/GitPilot-1.4.4-linux-x86_64.AppImage"
+          ]
+        },
+        "win32-x64": {
+          "filename": "GitPilot-Setup-1.4.4.exe",
+          "sha256": "1c77f6d6996b9389ef83c254748b5fca21404a32aa57c17c4abdc56b321fcd6e",
+          "size": 102302511,
+          "urls": [
+            "https://github.com/finally2026/GitPilot-releases/releases/download/v1.4.4/GitPilot-Setup-1.4.4.exe"
+          ]
+        }
+      }
+    }
+  }
+}
